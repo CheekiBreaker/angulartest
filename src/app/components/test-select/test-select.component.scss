@@ -1,0 +1,40 @@
+.form-field {
+  margin-bottom: 1rem;
+
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+
+    .required {
+      color: red;
+      margin-left: 2px;
+    }
+  }
+
+  select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+    &:focus {
+      outline: none;
+      border-color: #007bff;
+    }
+
+    option.active {
+      color: #000;
+    }
+
+    option:not(.active) {
+      color: #999;
+    }
+  }
+
+  small {
+    display: block;
+    margin-top: 0.25rem;
+    color: #6c757d;
+  }
+}

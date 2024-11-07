@@ -1,0 +1,22 @@
+.form-field.checkbox {
+  margin-bottom: 1rem;
+  
+  label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+  }
+
+  input[type="checkbox"] {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  small {
+    display: block;
+    margin-top: 0.25rem;
+    color: #6c757d;
+    margin-left: 1.5rem;
+  }
+}
